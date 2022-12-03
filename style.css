@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&family=Overpass:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-family: 'Overpass', sans-serif;
+}
+
+:root{
+    --VeryDarkBlue: hsl(216, 12%, 8%);
+    --White: hsl(0, 0%, 100%);
+    --LightGrey: hsl(217, 12%, 63%);
+    --MediumGrey: hsl(216, 12%, 54%);
+    --DarkBlue: hsl(213, 19%, 18%);
+    --Orange: hsl(25, 97%, 53%);
+}
+
+main{
+    min-height: 100vh;
+    max-width: 1440px;
+    background: var(--VeryDarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.rating{
+    background: radial-gradient(100% 100% at 50% 0%, #252D36 0% , #1C1F23 100%);
+    max-width: 300px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.star_icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: var(--DarkBlue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rating > h2{
+    margin: 15px 0;
+    font-weight: 700;
+    color: var(--White);
+}
+
+.rating > p{
+    color: var(--MediumGrey);
+    font-size: 13px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.form_container > .radio_btns{
+    word-spacing: 8px;
+}
+
+.radio_btns > input {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 22px 0;
+    font-weight: 700;
+    color: var(--MediumGrey);
+    background: var(--DarkBlue);
+    
+   
+}
+.radio_btns > input:hover{
+    cursor: pointer;
+    background: var(--Orange);
+    color: var(--White);
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.submit > button{
+    width: 220px;
+    height: 35px;
+    border-radius: 2rem;
+    font-weight: 600;
+    background: var(--Orange);
+    color: var(--White);
+}
+.submit > button:hover{
+    cursor: pointer;
+    background: var(--White);
+    color: var(--Orange);
+}
+
+.thanks{
+    display: none;
+    background: radial-gradient(100% 100% at 50% 0%, #252D36 0% , #1C1F23 100%);
+    max-width: 300px;
+    border-radius: 15px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.thank_you{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.output{
+    background-color: var(--DarkBlue);
+    width: 200px;
+    height: 30px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-weight: 400;
+    padding: 5px;
+    color: var(--Orange);
+    
+
+}
+
+
+.thanks > h3{
+    text-align: center;
+    margin: 20px  0;
+    color: var(--White);
+    font-weight: 700;
+}
+
+
+.thanks > p {
+    font-size: 13.5px;
+    font-weight: 400;
+    color: var(--MediumGrey);
+    padding: 5px;
+    text-align: center;
+}
+
+
+
+
+
